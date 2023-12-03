@@ -1,0 +1,199 @@
+.body1{
+    background-image: url(images/bk.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.header{
+    position: fixed;
+    top:0 ; left: 0;    right: 0;
+    z-index: 1000;
+    background: palevioletred;
+    padding: 3rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.logo{
+    position: fixed;
+    right: 100px;
+    width: 100px;
+
+}
+
+.navbar a{
+
+    
+     color:white;
+     font-size: 2rem;
+     margin: 0 2rem;
+     
+     &:hover{
+        text-decoration:underline;
+        text-underline-offset: 1rem;
+        color: yellow;
+     }
+    
+}
+
+section{
+    padding: 3rem 2rem ;
+}
+
+.home{
+    margin-top: 10rem;
+}
+
+.paragraph{
+    text-align: justify;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+}
+
+.content{
+    
+    width: 250px;
+    height: 250px;
+    margin-right:2rem;
+    
+}
+
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.flex-box{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(pink,blue);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    line-height: 200px;
+    margin: 10px;
+    
+}
+
+.flex-box2{
+    width: 300px;
+    height: 200px;
+    background: mediumslateblue;
+    font-size: 40px;
+    text-align: center;
+    line-height: 200px;
+    margin: 10px;
+    
+}
+
+.items{
+    background-color: aqua;
+    color: blueviolet;    
+}
+
+.body2{
+    background-image: url(images/foodback.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: 100px;
+    justify-content: left;
+    
+   
+}
+
+.arr{
+    background: mediumturquoise;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px;
+    transition: 0.4s ease;
+
+}
+.arr:hover{
+    box-shadow: 0px 0px 20px 20px;
+}
+
+.arr div{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-top: 8px solid #202020;
+    border-left: 8px solid #202020 ;
+    transform: rotate(45deg);
+    left:27.5px;
+    top: 35px;
+}
+
+.contact{
+    max-width: 600px;
+    margin: auto;
+    background-image: url(images/Feedback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: darkblue;
+}
+
+.row{
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.back{
+    transform: rotate(-90deg);
+}
+
+.conback{
+    background-color: blanchedalmond;
+}
+
+.background3{
+    background:lightcyan;
+    color: maroon;
+
+}
+
+.dess{
+    color: chocolate;
+    text-align: center;
+   font-size: 45px;
+}
+
+.dess2{
+    font-size: 30px;
+}
+
+.recptit{
+    color:goldenrod;
+}
+
+.recptit2{
+    
+    font-size: size 20px;
+}
+
+.recipe-details{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
